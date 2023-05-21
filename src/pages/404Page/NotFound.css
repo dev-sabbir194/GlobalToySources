@@ -1,0 +1,16 @@
+.go-home {
+  font-weight: 700;
+  background-color: #e15aed;
+  text-decoration: none;
+}
+.go-home:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+#link-go {
+  color: #000000;
+  text-decoration: none;
+}
+#link-go:hover {
+  color: #ffffff;
+}
