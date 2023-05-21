@@ -19,7 +19,7 @@ const MyToysPage = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        // Perform the delete operation
+       
         Swal.fire("Deleted!", "Your Toy has been deleted.", "success");
 
         fetch(

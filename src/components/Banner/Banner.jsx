@@ -21,7 +21,7 @@ const Banner = () => {
       image:
         "https://www.toysrus.in/media/mageplaza/bannerslider/banner/image/1/2/1200x450-bts-hp-banner.jpg",
     },
-    // Add more deal objects as needed
+  
   ];
 
   useEffect(() => {

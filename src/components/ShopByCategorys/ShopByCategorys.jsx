@@ -41,7 +41,7 @@ const ShopByCategorys = () => {
         "https://drive.google.com/uc?id=1JtniVeMEJrqua8YnrGyuXzYwSWgK-zcY",
       ],
     },
-    // Rest of the categories array
+   
   ];
 
   const [selectedCategory, setSelectedCategory] = useState(

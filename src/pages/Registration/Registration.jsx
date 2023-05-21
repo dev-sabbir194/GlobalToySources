@@ -46,10 +46,10 @@ const Registration = () => {
 
       const usersData = JSON.parse(localStorage.getItem("usersData")) || [];
 
-      // Generate a unique ID for the new user
+  
       const id = Date.now();
 
-      // Create a new user object
+  
       const newUser = {
         id,
         name,
@@ -58,16 +58,15 @@ const Registration = () => {
         password,
       };
 
-      // Add the new user to the existing data array
       usersData.push(newUser);
 
-      // Save the updated data array back to localStorage
+   
       localStorage.setItem("usersData", JSON.stringify(usersData));
 
-      // Remove previous photo URL from local storage
+     
       localStorage.removeItem("photoUrl");
 
-      // Save email, password, and photo URL to local storage
+ 
       localStorage.setItem("email", email);
       localStorage.setItem("password", password);
       localStorage.setItem("photoUrl", photoURL);

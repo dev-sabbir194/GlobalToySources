@@ -8,13 +8,11 @@ const NavBar = () => {
   const userPhotoUrl = localStorage.getItem("photoUrl");
 
   const handleLogout = () => {
-    // Clear user credentials and data from local storage
+
     localStorage.removeItem("userEmail");
     localStorage.removeItem("userPassword");
     localStorage.removeItem("photoUrl");
-    // Perform any additional logout actions, if necessary
-    // ...
-    // Redirect to the login page
+
     window.location.replace("/login");
   };
 

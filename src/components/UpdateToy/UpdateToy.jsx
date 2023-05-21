@@ -59,12 +59,12 @@ const UpdateToy = () => {
         ?.subcategories
     : [];
 
-  const { id } = useParams(); // Extract the toy ID from the URL
+  const { id } = useParams(); 
 
   const [toy, setToy] = useState({});
 
   useEffect(() => {
-    // Fetch the toy data from the server based on the provided ID
+
     fetch(`https://assignment-11-server-side-weld.vercel.app/addedtoy/${id}`)
       .then((res) => res.json())
       .then((data) => {
@@ -97,7 +97,7 @@ const UpdateToy = () => {
       quantity: quantity,
     };
 
-    // Send the updated toy data to the server
+   
     fetch(`https://assignment-11-server-side-weld.vercel.app/addedtoy/${id}`, {
       method: "PUT",
       headers: {
@@ -118,7 +118,7 @@ const UpdateToy = () => {
         }
       });
 
-    // Reset form fields
+    
     setSellerName("");
     setName("");
     setPictureUrl("");
