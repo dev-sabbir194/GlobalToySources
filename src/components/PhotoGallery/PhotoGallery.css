@@ -1,0 +1,48 @@
+.photo-gallery {
+  padding: 40px 0;
+ background-image: linear-gradient(to right, #305183, #586aa0, #7e85bd, #a5a0da, #ccbdf8);
+}
+
+.photo-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.photo-card:hover .photo {
+  transform: scale(1.1);
+}
+
+.photo-card:hover .overlay {
+  opacity: 1;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+#photo-gallary{
+    font-weight: 700;
+    color: #ffff;
+}
+
