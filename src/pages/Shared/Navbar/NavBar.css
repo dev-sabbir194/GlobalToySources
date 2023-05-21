@@ -1,0 +1,7 @@
+
+
+.t-color {
+  background: -webkit-linear-gradient(#45fce1, #1dfde7, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
