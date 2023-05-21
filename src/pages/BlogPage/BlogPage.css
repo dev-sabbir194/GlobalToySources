@@ -1,0 +1,18 @@
+.b-b {
+  text-align: center;
+  color: #fffafa;
+}
+
+#b-body {
+  background-image: linear-gradient(
+    to right,
+    #305183,
+    #586aa0,
+    #7e85bd,
+    #a5a0da,
+    #ccbdf8
+  );
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
