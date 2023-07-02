@@ -2,9 +2,6 @@
 # Global Toy Source!
 
 
-
-
-
 Global Toy Sources: Your destination for high-quality toys sourced from around the world. Discover a wide selection of toys for all ages and interests. Shop with confidence through our secure platform. Experience the joy of play with Global Toy Sources.
 
 
@@ -108,8 +105,8 @@ Live link : https://assingment-11-client-side.web.app/
 
 
 ## 🔗 Links
-![assingment-11-client-side web app_](https://github.com/dev-sabbir194/GlobalToySources/assets/121635899/ec6b2c83-b22e-490a-b9d3-bb95e81c1a76)
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/dev-sabbir194)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/dev-sabbir194)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://github.com/dev-sabbir194)
+![assingment-11-client-side web app_ (2)](https://github.com/dev-sabbir194/GlobalToySources/assets/121635899/1bf53b88-d77e-4bee-9a6d-426647aa94ac)
 
